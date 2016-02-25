@@ -1,0 +1,137 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+	background-color: rgba(217,206,199,1);
+	font-family: verdana;
+	
+}
+/*header li{
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+ul{
+	width: 50%;
+	margin:0px auto;
+}
+header{
+	background-color: rgb(217,148,65);
+	height: 100%;
+}
+header a{
+/*	color: white;*/
+/*	text-decoration: none;
+}
+header a:hover{
+	color: rgba(217,206,199,1);
+}
+
+header nav{
+	background-color: rgb(115,13,13);
+	padding:5px;
+
+}
+header{
+	
+	text-align: center;
+	margin:0 auto;
+	border: solid black 2px;
+}*/
+main img{
+	margin: 0.5px;
+	width: 100%;
+        }
+#topimage img{
+	width: 3%;
+	position: fixed;
+	bottom:5px;
+	right:10%;
+}
+
+td, th{
+   border: 2px solid black;
+   padding: 0.5rem;
+}
+
+/*table{
+    margin: 5px auto;
+    max-width:100%;
+    display:block;
+    overflow-x: auto;
+    vertical-align: central;
+}*/
+
+/*tbody tr:nth-child(odd){
+    background-color: rgb(115,13,13);
+    color:white;
+}
+tbody tr:nth-child(even){
+    background-color:white;
+    }
+
+tbody tr{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+}*/
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+.col50{
+   display: inline-block;
+   width: 50%;
+   margin: 20px auto;
+   border-left: 20px;
+   vertical-align: top;
+   padding: 0 10px;
+   min-width: 29%;
+}
+
+.col66{
+   display: inline-block;
+   width: 66%;
+   margin: auto;
+   border-left: 20px;
+   vertical-align: top;
+   min-width: 29%;
+}
+.col50 td{
+    min-width: 50%
+}
+.col33{
+    display: inline-block;
+    width: 33.3333%;
+    margin:0 auto 0.5em auto;
+   }
+.col33 img{
+       border: solid white 0.1rem;
+   }
+.col33 p{
+       text-align: center;
+       font-weight:bold;
+   }
+h1{
+    font-size: 3rem;
+    margin: .67em 0;
+}
+h2{
+    font-size: 2rem;
+    margin: .75em 0;
+}
+h3{
+    font-size: 1.5rem;
+    margin: .50rem .50rem;
+}
+
+.form{
+  background-color: rgba(7,15,18,0.20);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 50%;
+  box-shadow: 6px 4px 5px -1px rgba(0,0,0,0.75);
+}
